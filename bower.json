@@ -1,0 +1,26 @@
+{
+  "name": "ng-blueprint",
+  "version": "1.1.1",
+  "homepage": "https://github.com/riggerthegeek/ng-blueprint",
+  "authors": [
+    "Simon Emms <simon@simonemms.com>"
+  ],
+  "description": "Page title directive for an Angular project",
+  "main": "./dist/ng-blueprint.min.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "page",
+    "title"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
