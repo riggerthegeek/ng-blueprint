@@ -8,7 +8,7 @@
 
 A simple package to create reusable page layouts for your Angular projects
 
-## Usage
+# Usage
 
 First, add the library to your angular module
 
@@ -46,6 +46,10 @@ Finally, add the `blue-print` directive around your HTML
 
 If you don't specify a `layout=""` in the `blue-print` element, it will use your 'default' layout.  The layout name is
 the file name (less the '.html' bit);
+
+# @todo
+
+Unit tests
 
 # License
 
