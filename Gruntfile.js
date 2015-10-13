@@ -304,7 +304,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask("test", "Runs tests on the application", [
         "lint",
-        "unittest"
+        //"unittest"
     ]);
 
     grunt.registerTask("tag", "Tag a new release", [

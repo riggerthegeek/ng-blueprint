@@ -13,10 +13,12 @@
 
 /* Files */
 
-
 var app = angular.module("ng-blueprint", [])
 
     /* Directives */
-    ;
+    .directive("bluePrint", require("./directives/blueprint"))
+
+    /* Providers */
+    .provider("blueprint", require("./providers/blueprint"));
 
 module.exports = app;
