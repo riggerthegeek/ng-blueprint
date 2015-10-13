@@ -1,6 +1,6 @@
 {
   "name": "ng-blueprint",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Specify page layouts for an Angular project",
   "main": "./dist/ng-blueprint.min.js",
   "dependencies": {},
