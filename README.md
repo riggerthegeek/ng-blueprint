@@ -8,6 +8,45 @@
 
 A simple package to create reusable page layouts for your Angular projects
 
+## Usage
+
+First, add the library to your angular module
+
+    angular.module("app", [
+        "ng-blueprint"
+    ]);
+
+Next, configure the `layoutPath` in the config phase of your angular app
+
+    angular.config(function (blueprintProvider) {
+
+        blueprintProvider.setLayoutPath("path/to/view/layouts");
+
+    });
+
+Next, configure your layout file.  This is our `default.html` file.  The `ng-transclude` will be where the content is
+displayed (further information on [ngTransclude](https://docs.angularjs.org/api/ng/directive/ngTransclude) can be
+found here)
+
+    <div class="layout default_layout">
+
+        Default layout
+
+        <div ng-transclude></div>
+
+    </div>
+
+Finally, add the `blue-print` directive around your HTML
+
+    <blue-print>
+
+        layout content
+
+    </blue-print>
+
+If you don't specify a `layout=""` in the `blue-print` element, it will use your 'default' layout.  The layout name is
+the file name (less the '.html' bit);
+
 # License
 
 MIT License
